@@ -193,6 +193,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "ffi"
+version = "0.1.0"
+dependencies = [
+ "coa_converter_lib",
+ "image",
+]
+
+[[package]]
 name = "flate2"
 version = "1.0.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
